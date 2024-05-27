@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+function display(a,b)
+{
+document.write("value of a is:"+a);
+document.write("value of b is:"+b);
+}
+function show()
+{
+document.write("i am sushma");
+}
+function show1()
+{
+document.write("web development");
+}
+function add(c,d)
+{
+x=c+d;
+window.alert(x);
+}
+</script>
+</head>
+<body>
+<p onmouseover="show()">place the mpouse here!and call show()</p>
+<p onmouseout="display(2,3)">remove the mouse to show the content</p>
+<input type="button" value="click to call add()" onclick="add(89,99)">
+<h1 onclick="add(23,78)">add function with 23 and 78</h1>
+</body>
+</html>
